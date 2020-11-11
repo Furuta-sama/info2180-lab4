@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, "Noto-Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: turquoise;
+    color: white;
+}
+
+main{
+    padding: 5em;
+}
+
+.instruction{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form button{
+    padding: 15px 32px;
+    background-color: #5867D8;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, "Noto-Sans", sans-serif;
+}
+
+input[type="text" i] {
+    padding: 30px 125px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
